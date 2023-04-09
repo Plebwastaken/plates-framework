@@ -11,5 +11,5 @@ Discord: pleb!#2792 \
 Discord Server: https://discord.gg/na7sEM4WBN
 
 # set-up
-Move everything within the folders according to its folder name (Take them out of the folder)
-(https://imgur.com/LCqB989.png)
+Move everything within the folders according to its folder name (Take them out of the folder) \
+[Image](https://imgur.com/LCqB989.png)
