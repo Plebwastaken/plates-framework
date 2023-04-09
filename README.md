@@ -13,3 +13,6 @@ Discord Server: https://discord.gg/na7sEM4WBN
 # set-up
 Move everything within the folders according to its folder name (Take them out of the folder) \
 ![Image](images/Image1.png)
+
+Now create your spawns, you can make these invisible, just insert a part(s) for each spawn and put them in the according folders(LobbySpawns/Plates) \
+*The framework will choose a random spawn*
