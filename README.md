@@ -12,4 +12,4 @@ Discord Server: https://discord.gg/na7sEM4WBN
 
 # set-up
 Move everything within the folders according to its folder name (Take them out of the folder) \
-(./images/Image1.png)
+(images/Image1.png)
