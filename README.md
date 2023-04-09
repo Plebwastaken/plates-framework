@@ -18,3 +18,7 @@ Discord Server: https://discord.gg/na7sEM4WBN
 *The framework will choose a random spawn*
 
 Everything should be done, there is 1 premade action for the Player Actions and Plate Actions. You can delete them.
+
+# settings
+The settings module is located in ReplicatedStorage/Modules/Settings \
+You can open it up and change the settings to your liking.
