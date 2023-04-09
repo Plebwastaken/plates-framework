@@ -17,7 +17,7 @@ Discord Server: https://discord.gg/na7sEM4WBN
 **2.** Now create your spawns, you can make these invisible, just insert a part(s) for each spawn and put them in the according folders(LobbySpawns/Plates) \
 *The framework will choose a random spawn*
 
-Everything should be done, there is 1 premade action for each action type. You can delete them.
+Everything should be done, there is 1 premade action for each action type. You can delete them. (All they do is explode a player or a plate)
 
 # settings
 The settings module is located in ReplicatedStorage/Modules/Settings \
