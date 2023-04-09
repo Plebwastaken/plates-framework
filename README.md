@@ -1,5 +1,6 @@
 # plates-framework
 This is the documentation on how to use the Plates Framework
+The Plates Framework allows you to create games like [Horrifc Housing](https://www.roblox.com/games/263761432/UPDATE-Horrific-Housing)
 
 # links
 Get Plates Framework: \
