@@ -1,7 +1,8 @@
 # plates-framework
 This is the documentation on how to use the Plates Framework
 
-The Plates Framework allows you to create games like [Horrifc Housing](https://www.roblox.com/games/263761432/UPDATE-Horrific-Housing), [Plates Of Fate](https://www.roblox.com/games/4783966408/Plates-of-Fate-Remastered), and [Cursed Islands](https://www.roblox.com/games/990566015/Cursed-Islands)
+The Plates Framework allows you to create games like [Horrifc Housing](https://www.roblox.com/games/263761432/UPDATE-Horrific-Housing), [Plates Of Fate](https://www.roblox.com/games/4783966408/Plates-of-Fate-Remastered), and [Cursed Islands](https://www.roblox.com/games/990566015/Cursed-Islands) \
+The Plates Framework is easy to use, the only thing you need to do is create the actions that happen to the plate. This also alows you to change the settings of the entire game by withing the Settings module.
 
 # links
 Get Plates Framework: \
