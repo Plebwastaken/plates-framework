@@ -24,6 +24,6 @@ The settings module is located in ReplicatedStorage/Modules/Settings \
 You can open it up and change the settings to your liking.
 
 # actions
-The action module is located in ServerScriptService/Modules/RoundSystem/ActionSystem/(Player and Plates) \
+The action module is located in ServerScriptService/Modules/RoundSystem/ActionSystem/(Player and Plate) \
 **Player:** An action that happens to a player \
 **Plate:** An action that happens to a plate
