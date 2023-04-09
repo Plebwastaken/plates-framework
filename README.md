@@ -25,5 +25,5 @@ You can open it up and change the settings to your liking.
 
 # actions
 The action module is located in ServerScriptService/Modules/RoundSystem/ActionSystem/(Player and Plates) \
-**Player: ** An action that happens to a player
-**Plate: ** An action that happens to a plate
+**Player:** An action that happens to a player \
+**Plate:** An action that happens to a plate
