@@ -61,4 +61,4 @@ SetTimer()
 
 RoundInProgress:GetAttributeChangedSignal("Timer"):Connect(SetTimer)
 ``` \
-*This is only a very simple example on how you can make a timer.*
+*This is only a very simple example on how you can set up a timer ui.*
