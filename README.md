@@ -19,6 +19,17 @@ Discord Server: https://discord.gg/na7sEM4WBN
 
 Everything should be done, there is 1 premade action for each action type. You can delete them. (All they do is explode a player or a plate)
 
+**Custom Plate**
+To make a custom plate you will need to follow these steps. \
+**1.** Put your plate into a model.
+**2.** Name the model "PlateTemplate"
+**3.** Name the floor of the plate "Base"
+**4.** Set the "PrimaryPart" of the model to the "Base"
+**5.** Put the model into the "RoundSystem" (ServerScriptService/Modules/RoundSystem)
+
+**AFK**
+There is a AFK bool value located in Players/"Player"/Data/AFK, just set it to true to make the player AFK.
+
 # settings
 The settings module is located in ReplicatedStorage/Modules/Settings \
 You can open it up and change the settings to your liking.
@@ -119,3 +130,4 @@ Dead.ChildAdded:Connect(function(Value)
 	end
 end)
 ```
+*This is only a very simple example on how you can set up a notification ui.*
