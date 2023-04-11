@@ -48,7 +48,7 @@ The RoundSystem will select a random player or plate action to happen.
 # UI
 The Plates Framework doesnt have any built in ui functions, but here is how you can add some.
 
-**Timer**
+**Timer** \
 ***1.*** Set up your timer ui. \
 ***2.*** Put a local script within the ui. \
 ***3.*** Insert code into the local script. \
@@ -66,3 +66,25 @@ SetTimer()
 RoundInProgress:GetAttributeChangedSignal("Timer"):Connect(SetTimer)
 ```
 *This is only a very simple example on how you can set up a timer ui.*
+
+**Status** \
+***1.*** Set up your status ui. \
+***2.*** Put a local script within the ui. \
+***3.*** Insert code into the local script. \
+```lua
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RoundInProgress = Players:WaitForChild("RoundInProgress")
+
+local function SetStatus()
+	local Status = RoundInProgress:GetAttribute("Status")
+	local StatusLabel = script.Parent:WaitForChild("Status")
+	if Status == "NEP" then
+		Status = "Not enough players."
+	end
+	StatusLabel.Text = Status
+end
+SetStatus()
+
+RoundInProgress:GetAttributeChangedSignal("Status"):Connect(SetStatus)
+```
+*This is only a very simple example on how you can set up a status ui.*
