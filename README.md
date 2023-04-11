@@ -26,4 +26,12 @@ You can open it up and change the settings to your liking.
 # actions
 The action module is located in ServerScriptService/Modules/RoundSystem/ActionSystem/(Player and Plate) \
 **Player:** An action that happens to a player \
-**Plate:** An action that happens to a plate
+**Plate:** An action that happens to a plate 
+
+If you want to add an action just follow these steps. \
+**1.** Create a module script and put it in the according folder. (Player / Plate) \
+**2.** Put in the following code and change the 1st argument to whatever you want. \
+![Image](images/Image2.png)
+*The argument returns either the player or the plate* \
+**3.** Write the code to the action you want to create. \
+The RoundSystem will select a random player or plate function to happen.
