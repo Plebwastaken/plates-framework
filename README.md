@@ -28,7 +28,7 @@ To make a custom plate you will need to follow these steps. \
 **5.** Put the model into the "RoundSystem" (ServerScriptService/Modules/RoundSystem)
 
 **AFK**
-There is a AFK bool value located in Players/"Player"/Data/AFK, just set it to true to make the player AFK.
+There is a AFK bool value (Players/"Player"/Data/AFK), just set it to true to make the player AFK.
 
 # Settings
 The settings module is located in ReplicatedStorage/Modules/Settings \
