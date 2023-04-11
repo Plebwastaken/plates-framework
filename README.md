@@ -31,7 +31,15 @@ The action module is located in ServerScriptService/Modules/RoundSystem/ActionSy
 If you want to add an action just follow these steps. \
 **1.** Create a module script and put it in the according folder. (Player / Plate) \
 **2.** Put in the following code and change the 1st argument to whatever you want. \
-![Image](images/Image2.png) \
+```lua
+function Action(Arg)
+	if Arg then
+		
+	end
+end
+
+return Action
+```
 *The argument returns either the player or the plate* \
 **3.** Write the code to the action you want to create. 
 
