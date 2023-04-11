@@ -30,7 +30,7 @@ The action module is located in ServerScriptService/Modules/RoundSystem/ActionSy
 
 If you want to add an action just follow these steps. \
 **1.** Create a module script and put it in the according folder. (Player / Plate) \
-**2.** Put in the following code and change the 1st argument to whatever you want. \
+**2.** Put in the following code and change the 1st argument to whatever you want.
 ```lua
 function Action(Arg)
 	if Arg then
@@ -88,3 +88,34 @@ SetStatus()
 RoundInProgress:GetAttributeChangedSignal("Status"):Connect(SetStatus)
 ```
 *This is only a very simple example on how you can set up a status ui.*
+
+**Notification**
+***1.*** Set up your notification ui. \
+***2.*** Put a local script within the ui. \
+***3.*** Insert code into the local script.
+```lua
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RoundInProgress = Players:WaitForChild("RoundInProgress")
+local Dead = Players:WaitForChild("Dead")
+
+RoundInProgress:GetAttributeChangedSignal("Winner"):Connect(function()
+	local WinnerAttribute = RoundInProgress:GetAttribute("Winner")
+	local WinnerLabel = script.Parent:WaitForChild("Win")
+	if WinnerAttribute ~= nil and WinnerAttribute ~= "" then
+		WinnerLabel.Text = WinnerAttribute.." Has Won!"
+		task.wait(5)
+		WinnerLabel.Text = ""
+	end
+end)
+
+Dead.ChildAdded:Connect(function(Value)
+	print(Value)
+	local Text = Value.Name.." Has Died!"
+	local DiedLabel = script.Parent:WaitForChild("Died")
+	DiedLabel.Text = Text
+	task.wait(1)
+	if DiedLabel.Text == Text then
+		DiedLabel.Text = ""
+	end
+end)
+```
