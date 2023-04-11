@@ -46,11 +46,7 @@ The Plates Framework doesnt have any built in ui functions, but here is how you 
 ***3.*** Insert code into the local script. \
 ```lua
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Players = ReplicatedStorage:WaitForChild("Players")
-
 local RoundInProgress = Players:WaitForChild("RoundInProgress")
-local Alive = Players:WaitForChild("Alive")
-local Dead = Players:WaitForChild("Dead")
 
 local function SetTimer()
 	local Time = RoundInProgress:GetAttribute("Timer")
