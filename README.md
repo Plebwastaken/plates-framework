@@ -51,7 +51,7 @@ The Plates Framework doesnt have any built in ui functions, but here is how you 
 **Timer** \
 ***1.*** Set up your timer ui. \
 ***2.*** Put a local script within the ui. \
-***3.*** Insert code into the local script. \
+***3.*** Insert code into the local script.
 ```lua
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RoundInProgress = Players:WaitForChild("RoundInProgress")
@@ -70,7 +70,7 @@ RoundInProgress:GetAttributeChangedSignal("Timer"):Connect(SetTimer)
 **Status** \
 ***1.*** Set up your status ui. \
 ***2.*** Put a local script within the ui. \
-***3.*** Insert code into the local script. \
+***3.*** Insert code into the local script.
 ```lua
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RoundInProgress = Players:WaitForChild("RoundInProgress")
