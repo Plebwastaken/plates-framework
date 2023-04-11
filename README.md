@@ -5,7 +5,7 @@ The Plates Framework allows you to create games like [Horrifc Housing](https://w
 It is easy to use, the only thing you need to do is create the actions that happen to the plate and players. There are also settings that allow you to configure the entire games functionality.
 
 # Links
-Get Plates Framework: \
+Get Plates Framework: https://toolblocks.gg/a/plates-framework.OHIUzAVPEOEe9TbsiiIN \
 My Roblox Page: https://www.roblox.com/users/121516972/profile \
 Discord: pleb!#2792 \
 Discord Server: https://discord.gg/na7sEM4WBN
