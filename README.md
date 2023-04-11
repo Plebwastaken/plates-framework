@@ -4,13 +4,13 @@ This is the documentation on how to use the Plates Framework
 The Plates Framework allows you to create games like [Horrifc Housing](https://www.roblox.com/games/263761432/UPDATE-Horrific-Housing), [Plates Of Fate](https://www.roblox.com/games/4783966408/Plates-of-Fate-Remastered), and [Cursed Islands](https://www.roblox.com/games/990566015/Cursed-Islands) \
 It is easy to use, the only thing you need to do is create the actions that happen to the plate and players. There are also settings that allow you to configure the entire games functionality.
 
-# links
+# Links
 Get Plates Framework: \
 My Roblox Page: https://www.roblox.com/users/121516972/profile \
 Discord: pleb!#2792 \
 Discord Server: https://discord.gg/na7sEM4WBN
 
-# setup
+# Setup
 **1.** Move everything within the folders according to its folder name (Take them out of the folder) \
 ![Image](images/Image1.png)
 
@@ -30,11 +30,11 @@ To make a custom plate you will need to follow these steps. \
 **AFK**
 There is a AFK bool value located in Players/"Player"/Data/AFK, just set it to true to make the player AFK.
 
-# settings
+# Settings
 The settings module is located in ReplicatedStorage/Modules/Settings \
 You can open it up and change the settings to your liking.
 
-# actions
+# Actions
 The action module is located in ServerScriptService/Modules/RoundSystem/ActionSystem/(Player and Plate) \
 **Player:** An action that happens to a player \
 **Plate:** An action that happens to a plate 
