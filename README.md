@@ -100,7 +100,7 @@ RoundInProgress:GetAttributeChangedSignal("Status"):Connect(SetStatus)
 ```
 *This is only a very simple example on how you can set up a status ui.*
 
-**Notification**
+**Notification** \
 ***1.*** Set up your notification ui. \
 ***2.*** Put a local script within the ui. \
 ***3.*** Insert code into the local script.
