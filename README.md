@@ -21,10 +21,10 @@ Everything should be done, there is 1 premade action for each action type. You c
 
 **Custom Plate**
 To make a custom plate you will need to follow these steps. \
-**1.** Put your plate into a model.
-**2.** Name the model "PlateTemplate"
-**3.** Name the floor of the plate "Base"
-**4.** Set the "PrimaryPart" of the model to the "Base"
+**1.** Put your plate into a model. \
+**2.** Name the model "PlateTemplate". \
+**3.** Name the floor of the plate "Base". \
+**4.** Set the "PrimaryPart" of the model to the "Base". \
 **5.** Put the model into the "RoundSystem" (ServerScriptService/Modules/RoundSystem)
 
 **AFK**
