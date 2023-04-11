@@ -31,7 +31,34 @@ The action module is located in ServerScriptService/Modules/RoundSystem/ActionSy
 If you want to add an action just follow these steps. \
 **1.** Create a module script and put it in the according folder. (Player / Plate) \
 **2.** Put in the following code and change the 1st argument to whatever you want. \
-![Image](images/Image2.png)
+![Image](images/Image2.png) \
 *The argument returns either the player or the plate* \
-**3.** Write the code to the action you want to create. \
-The RoundSystem will select a random player or plate function to happen.
+**3.** Write the code to the action you want to create. 
+
+The RoundSystem will select a random player or plate action to happen.
+
+# UI
+The Plates Framework doesnt have any built in ui functions, but here is how you can add some.
+
+**Timer**
+***1.*** Set up your timer ui. \
+***2.*** Put a local script within the ui. \
+***3.*** Insert code into the local script. \
+```lua
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = ReplicatedStorage:WaitForChild("Players")
+
+local RoundInProgress = Players:WaitForChild("RoundInProgress")
+local Alive = Players:WaitForChild("Alive")
+local Dead = Players:WaitForChild("Dead")
+
+local function SetTimer()
+	local Time = RoundInProgress:GetAttribute("Timer")
+	local Timer = script.Parent:WaitForChild("Timer")
+	Timer.Text = tostring(Time)
+end
+SetTimer()
+
+RoundInProgress:GetAttributeChangedSignal("Timer"):Connect(SetTimer)
+``` \
+*This is only a very simple example on how you can make a timer.*
