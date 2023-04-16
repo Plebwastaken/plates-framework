@@ -25,7 +25,7 @@ To make a custom plate you will need to follow these steps. \
 **2.** Name the model "PlateTemplate". \
 **3.** Name the floor of the plate "Base". \
 **4.** Set the "PrimaryPart" of the model to the "Base". \
-**5.** Put the model into the "RoundSystem" (ServerScriptService/Modules/RoundSystem)
+**5.** Put the model into the "RoundSystem", and make sure to delete the one that is already there. (ServerScriptService/Modules/RoundSystem)
 
 **AFK**
 There is a AFK bool value (Players/"Player"/Data/AFK), just set it to true to make the player AFK.
